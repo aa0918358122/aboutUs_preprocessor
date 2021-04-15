@@ -2,6 +2,8 @@
 ## Install package
   ```
   $ npm init -y
+  $ npm i pug-cli --save-dev
+  $ npm i node-sass --save-dev
   $ npm i parcel-bundler --save-dev
   ```
 ## Run server
