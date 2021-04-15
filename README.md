@@ -1,4 +1,8 @@
 # aboutUs_preprocessor
+## Clone
+  ```
+  $ git clone https://github.com/aa0918358122/aboutUs_preprocessor.git
+  ```
 ## Install package
   ```
   $ npm init -y
