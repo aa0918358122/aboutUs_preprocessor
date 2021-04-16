@@ -1,17 +1,25 @@
 $(document).ready(function() {
+  $('#team').css("display", "none");
   $('#service .right_arrow').click(function() {
+    $('#team').show();
     $('#team').animate({left: "5vw"}, 1000);
+    setTimeout(function() {
+      $('#service').css("display", "none")}, 1000);
   })
   $('#team .right_arrow').click(function() {
     $('#story').animate({left: "5vw"}, 1000);
+    setTimeout(function() {
+      $('#team').css("display", "none")}, 1000);
   })
   $('#story .right_arrow').click(function() {
     $('#joinus').animate({left: "5vw"}, 1000);
   })
   $('#team .left_arrow').click(function() {
+    $('#service').show();
     $('#team').animate({left: "100vw"}, 1000);
   })
   $('#story .left_arrow').click(function() {
+    $('#team').show();
     $('#story').animate({left: "100vw"}, 1000);
   })
   $('#joinus .left_arrow').click(function() {
